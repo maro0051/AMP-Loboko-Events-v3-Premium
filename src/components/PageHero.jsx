@@ -1,0 +1,1 @@
+export default function PageHero({eyebrow,title,text}){return <section className="page-hero"><div className="container-shell pt-36 pb-20"><p className="eyebrow">{eyebrow}</p><h1 className="display-lg mt-4 max-w-4xl">{title}</h1>{text&&<p className="lead max-w-2xl">{text}</p>}</div></section>}

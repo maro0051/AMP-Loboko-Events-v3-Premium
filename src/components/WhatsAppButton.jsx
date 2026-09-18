@@ -1,0 +1,2 @@
+import {MessageCircle} from "lucide-react";import {config} from "../config";
+export default function WhatsAppButton(){return <a className="whatsapp-float" href={config.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle size={23}/><span>WhatsApp</span></a>}
